@@ -284,29 +284,31 @@
     </div>
 
     <div class="section" id="awards">
-      <div class="container">
+      <div class="container cc-education">
         <div class="h4 text-center mb-4 title">Awards</div>
           <div class="card">
               <div class="row">
-                <div class="col-md-3 text-center" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-                  <div class="card-body">
-                    <p>1.<strong> Rakuten Excellence Award </strong>May 2021</p>
+                <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                  <div class="card-body cc-education-header">
+                    <p class="h6">Rakuten Excellence Award</p>
+                    <p> May 2021 </p>
+                    <a class="btn btn-default" style="background-color: white; color: black;" target="_blank" 
+                    href="{{url_for('static',filename='rakuten-award-pranav.pdf')}}" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">View</a>
                   </div>
                 </div>
-                <div class="col-md-7" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+
+                <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
                   <div class="card-body">
+                    <p> Grateful recognition for making a larger impact in the Rakuten Payments team. </p>
                     <ul style="text-align:justify;">
-                      <li>Grateful recognition for making a larger impact and outstanding performance in the Rakuten Payments team.</li>
                       <li>This award was given for displaying leadership and product ownership. My major contribution was put into 
-                        designing and developing the Rakuten Point Partner SDK using Swift 5, which could be easily integrated with 
-                        partner iOS apps to use the Point Partner services.</li>
+                        designing and developing the Rakuten Point Partner SDK (Software Development Kit) using Swift 5, which could 
+                        be easily integrated with Partner iOS apps to use the Point Partner services.</li>
+                      <li>I architected the SDK from scratch, persistently coordinated with web development team to integrate the 
+                        authentication, login, device-check, barcode-generation APIs.</li>
+                      <li>Added XCTest and XCUITest cases to test all the developed functionalities, code quality checkers with 
+                        SonarQube ensuring maximum code coverage and bug-free release.</li>
                     </ul>
-                  </div>
-                </div>
-                <div class="col-md-2" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                  <div class="card-body">
-                    <a class="btn btn-primary" target="_blank" href="{{url_for('static',filename='rakuten-award-pranav.pdf')}}"
-                    data-aos="zoom-in" data-aos-anchor="data-aos-anchor">View</a>
                   </div>
                 </div>
               </div>
